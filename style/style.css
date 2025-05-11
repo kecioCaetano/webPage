@@ -17,38 +17,44 @@ body{
 .testimony,
 .footer,
 .main{
-     width: 800px;
+     width: 900px;
 }
 
 .header{
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 5px 50px;
+    padding: 10px 70px;
 }
 
 .menu{
     font-size: px;    
     color: #E5E7EB;
-    text-decoration: none;
-    list-style: none;
+    list-style-type: none;
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
 .logo{
-    width: 120px;
+    width: 50px;
 }
 
 a {
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 .main{
     background-color: #1f2937;
     height: 350px;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    border: 1px solid white;
+    
 }
+
 
 .cards{
     background-color: white;
@@ -65,4 +71,33 @@ a {
     color: white;
     padding: 25px;
     text-align: center;
+}
+
+.full-fox{
+    width: 320px;
+}
+
+.main-card h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.main-card span{
+    color: #F9FAF8;
+}
+
+.main-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    color: white;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 800;
 }
